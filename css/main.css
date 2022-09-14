@@ -141,7 +141,12 @@ footer{
     }
 
     .info--heading{
-        font-size: 60px;
+        font-size: 50px;
+        color: var(--very-dark-magenta)
+    }
+
+    .info--text{
+        font-size: 16px;
     }
 
     .ratings{
@@ -150,6 +155,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        gap: 16px;
     }
     
     .rating{
@@ -157,6 +163,7 @@ footer{
         width: 445px;
         flex-direction: row;
         justify-content: left;
+        margin: 0;
     }
 
     .rating:nth-child(1){
@@ -177,7 +184,7 @@ footer{
         align-items: flex-start;
         /* justify-content: space-between; */
         gap: 30px;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .review{
